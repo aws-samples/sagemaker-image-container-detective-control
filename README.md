@@ -69,4 +69,4 @@ Please refer to the [notebook](./SageMaker-Training-Example.ipynb)
 
 [Bruno Pistone](https://github.com/brunopistone) - AI/ML Specialist Solutions Architect, based in Milan, Italy.
 
-[Engincan Meydan](https://github.com/engincan-meydan) - Technical Business Development Manager, based in Madrid, Spain.
+[Engincan Meydan](https://github.com/engincan-meydan) - Technical Business Development Manager, based in Madrid, Spain. 
