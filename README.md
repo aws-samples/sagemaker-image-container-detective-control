@@ -22,8 +22,7 @@ not allowed Docker images by using Amazon EventBridge and AWS Lambda.
 In this example, we are providing Infrastructure as Code (IaC) templates for provisioning the necessary resources required 
 for the solution.
 
-We are providing an example [template](./cloudformation/template.yml), by using AWS CloudFormation(https://docs.aws.amazon.com/en_en/AWSCloudFormation/latest/UserGuide/Welcome.html) 
-in order to deploy the following resources:
+We are providing an example [template](./cloudformation/template.yml), by using [AWS CloudFormation](https://docs.aws.amazon.com/en_en/AWSCloudFormation/latest/UserGuide/Welcome.html) in order to deploy the following resources:
 
 * IAM Policy and Role for the AWS Lambda functions
 * Two AWS Lambda Functions for managing the SageMaker Training and Processing Jobs
