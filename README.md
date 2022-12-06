@@ -14,7 +14,7 @@ not allowed Docker images by using Amazon EventBridge and AWS Lambda.
 
 1. Two Amazon EventBridge Rules are monitoring the SageMaker Job executions for Processing and Training
 2. Each time a new job is executed, a specific AWS Lambda function is invoked
-3. The Lambda function is checking the SageMaker Image in the list of blacklisted provided in the environment variable
+3. The Lambda function is checking the SageMaker Image in the unapproved list provided in the environment variable
 4. The Lambda function stops the job
 
 ## Setup
@@ -69,4 +69,4 @@ Please refer to the [notebook](./SageMaker-Training-Example.ipynb)
 
 [Bruno Pistone](https://github.com/brunopistone) - AI/ML Specialist Solutions Architect, based in Milan, Italy.
 
-[Engincan Meydan](https://github.com/engincan-meydan) - Technical Business Development Manager, based in Madrid, Spain. 
+[Engincan Meydan](https://github.com/engincan-meydan) - Technical Business Development Manager, based in Madrid, Spain.
